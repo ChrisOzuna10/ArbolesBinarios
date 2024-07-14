@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BST Celulares</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Gestión de Celulares</h1>
+        <div>
+            <input type="text" id="modeloTxt" placeholder="Modelo">
+            <input type="text" id="marcaTxt" placeholder="Marca">
+            <input type="text" id="colorTxt" placeholder="Color">
+            <button id="guardarBtn">Guardar Celular</button>
+        </div>
+        <div class="buttons">
+            <input type="text" id="searchTxt" placeholder="Buscar por Modelo">
+            <button id="buscarBtn">Buscar Celular</button>
+            <button id="buscar_minBtn">Buscar Mínimo</button>
+            <button id="buscar_maxBtn">Buscar Máximo</button>
+            <button id="imprimirBtn">Imprimir Todos</button>
+        </div>
+        <ul id="data"></ul>
+    </div>
+    <script type="module" src="./src/controllers/script.js"></script>
+</body>
+
+</html>
